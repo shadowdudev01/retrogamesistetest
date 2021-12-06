@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+ body{
+    background: url("/img/metrd.png") center center/cover no-repeat  ;
+    min-height: 1000px;
+ }     
+
+
+h1{
+    margin-top: 100px;
+    margin-bottom: 150px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.sonic{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+.emu{
+    padding-top: 120px;
+
+    z-index: 10;
+}
+#game-box-iframe{
+
+    display: block;
+    margin: 0 auto;
+    border-radius: 30px;
+    width: 450px; 
+    height: 300px;
+    z-index: 2;
+
+
+}
+
+
+
+
+.gba{
+  
+    width: 1000px;
+    
+    position: absolute;
+    margin: 0, auto;
+    align-items: center;
+    z-index: -3;
+
+
+
+
+  }
+  
+  img{
+
+    position: absolute;
+    width: 990px;
+    z-index: -1000;
+  }
+  
+
+  .logo{
+    font-size: large;
+    font-weight: 500;
+    font-size: 32px;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+  
+  header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 5%;
+    background-color: #000000;
+    position: sticky;
+    top: 0;
+  }
+  
+  .logo {
+    margin-right: auto;
+  }
+  
+  .nav__links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav__links a,
+  .cta,
+  .overlay__content a {
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+  
+  .nav__links li {
+    padding: 0px 20px;
+  }
+  
+  .nav__links li a {
+    transition: all 0.3s ease 0s;
+  }
+  
+  .nav__links li a:hover {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background: linear-gradient(93.85deg, #4378FF 0%, #DF1854 100%);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
