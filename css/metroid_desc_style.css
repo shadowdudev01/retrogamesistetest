@@ -9,7 +9,7 @@
 
   body{
     background-color: black;
-    background: url("/img/metrd.png") center center/cover no-repeat  ;
+    background: url("../img/metrd.png") center center/cover no-repeat  ;
   }
 
 
