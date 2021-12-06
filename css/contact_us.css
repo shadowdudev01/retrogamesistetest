@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .logo{
+    font-size: large;
+    font-weight: 500;
+    font-size: 32px;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+  
+
+  
+  .logo {
+    margin-right: auto;
+  }
+  
+  .nav__links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav__links a,
+  .cta,
+  .overlay__content a {
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+  
+  .nav__links li {
+    padding: 0px 20px;
+  }
+  
+  .nav__links li a {
+    transition: all 0.3s ease 0s;
+  }
+  
+  .nav__links li a:hover {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background: linear-gradient(93.85deg, #4378FF 0%, #DF1854 100%);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  
+body{
+
+
+    background: url("../img/bricks.png") center center/cover no-repeat  ;
+
+    background-attachment: fixed;
+    
+    
+
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+
+  position: relative;
+  margin: 0, auto;
+  width: 80%;
+  margin-bottom: 16px;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+.card {
+  
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+background-color: white;
+border-radius: 10px;
+  
+}
+
+.our{
+  font-size: 42px;
+}
+
+.about-section {
+  padding: 20px;
+  text-align: left;
+  background-color: #ffffff00;
+  color: white;
+}
+
+img{
+  padding-left: 10px;
+}
+.container {
+  margin-left: 35px;
+  margin-top: 10px;
+  width: 100%;
+  font-size: 24px;
+}
+
+.email{
+
+  height: 30px;
+  border-radius: 10px;
+}
+.message{
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 90%;
+  height: 300px;
+  text-align: inherit;
+}
+
+.row{
+
+  position: relative;
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-bottom: 380px;
+  text-align: left;
+}
+.container::after, .row::after {
+  content: "";
+  clear: both;
+
+}
+
+.title {
+  color: grey;
+}
+
+p{
+  margin-top: 10px;
+}
+
+
+.button {
+  display: block;
+  margin-left: 300px;
+  margin-top: 10px;
+  width: 30%;
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 22px;
+}
+
+.button:hover {
+  background: linear-gradient(93.85deg, #4378FF 0%, #DF1854 100%);
+}
+
+@media screen and (max-width: 1024px) {
+  .column {
+
+    margin-left: 350px;
+  }
+}
+
+footer {
+
+  bottom: 0;
+
+  min-height: 50px;
+  background-color: #000000;
+  padding: 21px 0 29px 0;
+}
+
+.info {
+  margin: 0 auto;
+  width: 500px;
+  text-align: center;
+  color: #888888;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+footer a {
+  color: #888888;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 5%;
+  background-color: #000000;
+
+  top: 0;
+  position: sticky;
+  z-index: 25;
+}
